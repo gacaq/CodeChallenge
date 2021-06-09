@@ -9,7 +9,7 @@ namespace CodeChallenge.Domain.Services
     {
         private const int ROLE_WEIGTH = 40;
         private const int INDUSTRY_WEIGTH = 30;
-        private const decimal CONNECTIONS_FACTOR = 1 / 100;
+        private const decimal CONNECTIONS_FACTOR = 1 / 30;
         private const decimal RECOMENDATIONS_FACTOR = 1 / 50;
 
         private readonly string[] baires_roles = new string[] { "PRODUCT MANAGER", "VP OF ENGINEERING", "SVP", "MANAGING DIRECTOR", "PROGRAM MANAGER", "CTO", "BUSINESS DEVELOPMENT", "DIRECTOR OF ARCHITECTURE", "VP TECHNOLOGY SERVICES", "CEO", "FOUNDER", "OWNER", "CHIEF EXECUTIVE OFFICER", "VICE PRESIDENT", "PRESIDENT", "PROJECT MANAGER", "DIRECTOR", "SUPERVISOR" };
